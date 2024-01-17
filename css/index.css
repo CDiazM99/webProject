@@ -1,0 +1,35 @@
+li{
+    background: rgba(224, 189, 109, 0.871);
+    height: 30px;
+    list-style-type: none;
+    text-align: center;
+    flex-basis: 100%;
+    /*line-height: 30px;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li a{
+    font-family: sans-serif;
+    color: #773a08;
+    font-weight: bolder;
+    padding: 8px;
+    width: 100%;
+    font-size: larger;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    gap: 5px;
+    /*flex-direction: column;
+    width: max-content;*/
+}
+body{
+    background-image: url(/Image/fondoWeb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background
+}
