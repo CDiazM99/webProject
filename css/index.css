@@ -1,3 +1,9 @@
+body{
+    background-image: url(/Image/fondoWeb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 li{
     background: rgba(224, 189, 109, 0.871);
     height: 30px;
@@ -26,10 +32,4 @@ ul{
     gap: 5px;
     /*flex-direction: column;
     width: max-content;*/
-}
-body{
-    background-image: url(/Image/fondoWeb.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background
 }
