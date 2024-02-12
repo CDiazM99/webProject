@@ -1,7 +1,17 @@
-body{
-    background-image: url(/Image/fondoWeb.jpg);
-    background-repeat: no-repeat;
+body div{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.main-img{
+    background: url(../Image/Main-img.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
 }
 
 li{
