@@ -6,14 +6,6 @@ body div{
     color: white;
 }
 
-.main-img{
-    background: url(../Image/Main-img.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-
-}
-
 li{
     background: rgba(224, 189, 109, 0.871);
     border: 2px solid #773a08;
