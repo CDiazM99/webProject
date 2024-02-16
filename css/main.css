@@ -37,9 +37,7 @@ button {
   }
 
 button:hover{
-    height: 8.5vh;
-    width: 8.5vw;
-    font-size: 18px;
+    transform: scale(1.1);
 }
 
 a{
