@@ -11,6 +11,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 .supBackground{
     display: flex;
     color: white;
@@ -25,16 +26,18 @@ body{
     text-transform: uppercase;
     text-shadow: 6px 5px 7px black;
 }
+
 button {
     background-color: rgba(0, 0, 0, 0.281);
     color: white;
     border: 1px solid white;
     cursor: pointer;
-    height: 8vh;
+    height: 7vh;
     border-radius: 25px;
     font-size: medium;
     font-family: Playfair;
-  }
+    margin: 2.5rem;
+}
 
 button:hover{
     transform: scale(1.1);
