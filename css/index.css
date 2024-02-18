@@ -144,13 +144,17 @@ article h2 {
     color: white;
 }
 
+article.caja-panes{
+    margin-top: 6rem;
+}
+
 .imagenes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex: 1 1;
     text-align: center;
-    margin: 5rem;
+    margin: 5rem 0rem 0rem 0rem;
 }
 
 .caja-pan {
