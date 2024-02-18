@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/contacto.css">
+    <link rel="shortcut icon" href="/Image/logo.jpg" type="image/x-icon">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html"><img src="/Image/logo.jpg" alt=""></a></li>
+                <li class="navButton"><a href="/index.html">Home</a></li>
+                <li class="navButton"><a href="/productos.html">Productos</a></li>
+                <li class="navButton"><a href="/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside class="fondo-bienvenida">
+            <div class="title">
+                <h1>Contacto</h1>
+            </div>
+        </aside>
+        <article>
+            <form action="./enviado.html" method="get" class="formulario">
+                <div class="trabajo">
+                    <h1>¿QUIERES TRABAJAR CON NOSOTROS?</h1>
+                    <div class="trabajo-elemento">
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" name="nombre" id="nombre" autofocus required>
+                    </div>
+                    <div class="trabajo-elemento">
+                        <label for="correo">Correo electrónico: </label>
+                        <input type="email" name="correo" id="correo" required>
+                    </div>
+                    <div class="trabajo-elemento">
+                        <label for="texto">Más información: </label>
+                        <textarea name="texto" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <button>Enviar</button>
+                </div>
+                <div class="proveedores">
+                </div>
+            </form>
+        </article>
+        <article>
+            <section class="proveedores">
+                <ul>
+                    <li><img class="imgprov" src="/Image/aceite.png" alt="oleoestepa"></li>
+                    <li><img class="imgprov" src="/Image/levadura.png" alt="levanova"></li>
+                    <li><img class="imgprov" src="/Image/harina.png" alt="ylla"></li>
+                    <li><img class="imgprov" src="/Image/huevos.png" alt="makro"></li>
+                    <li><img class="imgprov" src="/Image/sal.png" alt="salineraEspañola"></li>
+                </ul>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <div class="footer-info">NO DUDES EN CONTACTAR</div>
+        <div class="footer-wrapper">
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="mailto:cdm0019@alu.medac.es">Correo: cdm0019@alu.medac.es</a></li>
+                <li><a href="tel:672935321">Telefono: 672935321</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

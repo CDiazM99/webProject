@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -13,87 +13,67 @@
   <header>
     <nav>
       <ul>
-        <li><img src="/Image/logo.jpg" alt=""></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Planes</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="/index.html"><img src="/Image/logo.jpg" alt=""></a></li>
+        <li class="navButton"><a href="/index.html">Home</a></li>
+        <li class="navButton"><a href="/productos.html">Productos</a></li>
+        <li class="navButton"><a href="/contacto.html">Contacto</a></li>
       </ul>
     </nav>
   </header>
-  <main class="prueba">
-    <div class="fondo-bienvenida">
+  <main>
+    <aside class="fondo-bienvenida">
       <div class="title">
         <h1>Panadería Cadimo</h1>
         <p>Arte en cada pan, tradición en cada mordisco.</p>
       </div>
-    </div>
-    <!--<div class="grupo-panes">
-      <div class="caja-pan">
-        <div class="caja-pan-imagen">
-          <img src="/Image/hogaza.jpg" alt="">
-        </div>
-        <div class="caja-pan-descripcion">
-          <p>Hogaza de pueblo artesana.</p>
-        </div>
-      </div>
-      <div class="caja-pan">
-        <div class="caja-pan-imagen">
-          <img src="/Image/nueces-pasas.jpg" alt="">
-        </div>
-        <div class="caja-pan-descripcion">
-          <p>Pan de nueces-pasas.</p>
-        </div>
-      </div>
-      <div class="caja-pan">
-        <div class="caja-pan-imagen">
-          <img src="/Image/integral.jpg" alt="">
-        </div>
-        <div class="caja-pan-descripcion">
-          <p>Pan 100% integral.</p>
-        </div>
-      </div>
-      <div class="caja-pan">
-        <div class="caja-pan-imagen">
-          <img src="/Image/centeno.jpg" alt="">
-        </div>
-        <div class="caja-pan-descripcion">
-          <p>Pan 100% centeno.</p>
-        </div>
-      </div>
-      <div class="caja-pan">
-        <div class="caja-pan-imagen">
-          <img src="/Image/pan-brioche.jpg" alt="">
-        </div>
-        <div class="caja-pan-descripcion">
-          <p>Pan brioche</p>
-        </div>
-      </div>
-    </div>-->
-    
-    <div>
+    </aside>
+    <article>
+      <h2 class="resp">PRODUCTOS MÁS VENDIDOS</h2>
       <section class="imagenes">
-        <a class="img-pan"><img src="/Image/centeno.jpg" alt="" style="width: 661px;"></a>
-        <a class="img-pan"><img class="img-pan2" src="/Image/hogaza.jpg" alt=""></a>
-        <a class="img-pan"><img class="img-pan2" src="/Image/integral.jpg" alt=""></a>
-        <a class="img-pan"><img src="/Image/nueces-pasas.jpg" alt="" style="width: 661px; height: 465.8px;"></a>
+        <div class="caja-pan centeno">
+          <p class="texto">CENTENO</p>
+        </div>
+        <div class="caja-pan hogaza">
+          <p class="texto">HOGAZA RUSTICA</p>
+        </div>
+        <div class="caja-pan integral">
+          <p class="texto">INTEGRAL</p>
+        </div>
+        <div class="caja-pan nuecesP">
+          <p class="texto">NUECES Y PASAS</p>
+        </div>
       </section>
-    </div>
-    
-    <div class="descripcion">
-      <div class="desTitle">
-        <h1>Sobre nosotros</h1>
-      </div>
-      <div class="info">
-        <p>
-          "Dulce Aroma" es una panadería artesanal que fusiona la tradición con la frescura diaria. Con ingredientes de
-          alta calidad y recetas transmitidas generación tras generación, nuestros panaderos expertos crean panes y
-          reposterías con sabores auténticos. En un ambiente acogedor, invitamos a disfrutar de una experiencia única
-          que celebra la pasión por la buena comida y la autenticidad en cada bocado.
-        </p>
-      </div>
-    </div>
+    </article>
+    <article>
+      <h2 class="resp">SOBRE NOSOTROS</h2>
+      <section>
+        <div class="info">
+          <div class="image-info">
+            <img src="Image/foto.jpg" alt="sobre nosotros">
+          </div>
+          <div class="text-info">
+            <p class="span">
+              "Cadimo" es una panadería artesanal que fusiona la tradición con la frescura diaria. Con ingredientes de
+              alta calidad y recetas transmitidas generación tras generación, nuestros panaderos expertos crean panes
+              con
+              sabores auténticos. En un ambiente acogedor, invitamos a disfrutar de una experiencia única
+              que celebra la pasión por la buena comida y la autenticidad en cada bocado.
+            </p>
+          </div>
+        </div>
+      </section>
+    </article>
   </main>
+  <footer>
+    <div class="footer-info">NO DUDES EN CONTACTAR</div>
+    <div class="footer-wrapper">
+      <ul>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="mailto:cdm0019@alu.medac.es">Correo: cdm0019@alu.medac.es</a></li>
+        <li><a href="tel:672935321">Telefono: 672935321</a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
 
 </html>
