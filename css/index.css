@@ -217,13 +217,12 @@ article.caja-panes{
 }
 
 .texto, a.enlace-pan {
-    text-decoration: ;
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.541);
+    background-color: rgba(0, 0, 0, 0.413);
     font-size: 45px;
     color: white;
     font-family: Playfair;
