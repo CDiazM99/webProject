@@ -105,6 +105,7 @@ div.title{
 
 .producto{
     border-radius: 65px;
+    transition: 0.4s;
 }
 
 section.seleccion-productos{
