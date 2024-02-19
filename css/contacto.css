@@ -113,8 +113,6 @@ div.title{
 .formulario{
     margin: 1rem;
     display: flex;
-    
-    
     justify-content: center;
     align-items: center;
     color: white;
@@ -147,9 +145,6 @@ div.trabajo-elemento input{
     width: 100%;
 }
 
-label span{
-    color: red;
-}
 .trabajo button{
     background-color: rgba(0, 0, 0, 0.281);
     color: white;

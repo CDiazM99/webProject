@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Playfair;
+    src: url(../fonts/playfair/PlayfairDisplay-Regular.ttf);
+}
+
+body{
+    background: url(../Image/MainBlur-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.supBackground{
+    display: flex;
+    color: white;
+    align-items: center;
+    font-weight: bolder;
+    flex-direction: column;
+    justify-content: center;
+    font-size: xx-large;
+    width: 100vw;
+    min-height: 100vh;
+    font-family: Playfair;
+    text-transform: uppercase;
+    text-shadow: 6px 5px 7px black;
+}
+
+/* LOGIN */
+
+.formulario{
+    margin: 1rem;
+    display: flex;
+    
+    
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    height: 15rem;
+    width: 20rem;
+}
+
+div.login-elemento label{
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+div.login-elemento input{
+    margin: 1rem;
+    width: 85%;
+}
+
+.trabajo button{
+    background-color: rgba(0, 0, 0, 0.281);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    height: 7vh;
+    border-radius: 25px;
+    font-size: medium;
+    margin: 2.5rem;
+}
+
+.datos-recibidos{
+    width: 100%;
+}
+
+.datos-recibidos h1{
+    width: fit-content;
+    margin: auto;
+    padding: 4rem;
+    color: white;
+    font-size: 2rem;
+}
+
+/* BUTTON */
+
+button {
+    background-color: rgba(0, 0, 0, 0.281);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    height: 9vh;
+    width: 12rem;
+    border-radius: 25px;
+    font-size: medium;
+    font-family: Playfair;
+    margin: 4rem;
+    transition: 0.4s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
