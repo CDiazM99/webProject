@@ -8,6 +8,25 @@ body{
     background-color: rgb(61, 61, 61);
 }
 
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(61, 61, 61);
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(192, 164, 128);
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    /*border: 3px solid rgb(192, 164, 128);*/
+    /* creates padding around scroll thumb */
+}
+
 @font-face {
     font-family: Playfair;
     src: url(../fonts/playfair/PlayfairDisplay-Regular.ttf);
